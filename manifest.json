@@ -1,0 +1,17 @@
+{
+
+    "version": "1.2",
+    "manifest_version": 2,
+    "name": "Automation Helper For Polarion",
+  "description": "Helper for making Automation easier.",
+  "icons": {
+    "128": "polarion128.png",
+    "48": "polarion48.png",
+    "16": "polarion16.png"
+  },
+    "browser_action": {
+      "default_icon": "polarion16.png",
+      "default_popup": "index.html"
+    },
+    "permissions": ["tabs", "<all_urls>"]
+  }
